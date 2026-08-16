@@ -85,14 +85,14 @@ export default function Footer() {
         <div>
           <p className="text-[10px] uppercase tracking-[0.2em] text-accent font-bold mb-3">Contact</p>
           <a
-            href="mailto:worknest0224@gmail.com"
+            href="mailto:Tajanihamza93003@gmail.com"
             className="inline-flex items-center gap-2 text-sm font-semibold hover:text-accent transition-colors"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-accent">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               <path d="M22 6l-10 7L2 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-            worknest0224@gmail.com
+            Tajanihamza93003@gmail.com
           </a>
           <p className="text-xs mt-3" style={{ color: "var(--text-tertiary)" }}>
             Mumbai, India

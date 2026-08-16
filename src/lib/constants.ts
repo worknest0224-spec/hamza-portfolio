@@ -24,7 +24,7 @@ export const TIMELINE_ITEMS = [
   { year: "College", title: "DLLE Member", desc: "Community engagement, social initiatives, and institutional activities.", category: "leadership" },
   { year: "Academic", title: "Participated in Avishkar", desc: "Gained exposure to research methodology, literature exploration, project planning, and scientific thinking.", category: "research" },
   { year: "Academic", title: "Scientific Review Article", desc: "Literature analysis, scientific writing, referencing, and systematic presentation.", category: "research" },
-  { year: "Work", title: "CA Assistant", desc: "TDS filing, RTI, banking management, documentation, and financial administration.", category: "business" },
+  { year: "Work", title: "CA Assistant", desc: "TDS filing, ITR, banking management, documentation, and financial administration.", category: "business" },
   { year: "Work", title: "Indian Handicraft — Marketing", desc: "Marketing strategy, product promotion, brand positioning, and business communication.", category: "business" },
   { year: "Current", title: "Bellapaso — Manager", desc: "Managing a women's footwear brand — business operations, marketing, and digital strategy.", category: "business" },
   { year: "AI", title: "AI & Prompt Engineering", desc: "Creating detailed prompts, AI-assisted research, design, and problem-solving.", category: "ai" },

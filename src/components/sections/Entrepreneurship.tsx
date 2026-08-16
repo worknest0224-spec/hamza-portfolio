@@ -124,7 +124,7 @@ export default function Entrepreneurship() {
             {
               title: "CA Office",
               role: "Assistant",
-              desc: "TDS filing, RTI filing, banking management, documentation, financial administration, and professional communication.",
+              desc: "TDS filing, ITR filing, banking management, documentation, financial administration, and professional communication.",
             },
           ].map((biz, i) => (
             <motion.div
