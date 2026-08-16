@@ -80,7 +80,7 @@ export default function Hero() {
               className="mt-2 flex flex-col gap-3"
             >
               <p className="text-lg md:text-xl font-semibold leading-snug max-w-md">
-                Pharmacy Student. Entrepreneur.
+                B.Pharm Student. Entrepreneur.
                 <br />
                 Leader. <span className="text-accent">AI Builder.</span>
               </p>
@@ -118,20 +118,20 @@ export default function Hero() {
               className="flex flex-wrap gap-4 mt-3"
             >
               <a
-                href="#journey"
+                href="#about"
                 className="group inline-flex items-center gap-3 px-7 py-3.5 bg-accent text-white rounded-full text-xs uppercase tracking-wider font-bold hover:bg-accent-dark transition-all hover:shadow-lg hover:shadow-accent/20"
               >
-                Explore My Journey
+                About Me
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="group-hover:translate-x-1 transition-transform">
                   <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </a>
               <a
-                href="#ai"
+                href="#journey"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full text-xs uppercase tracking-wider font-bold border-2 border-[var(--border-color)] hover:border-accent hover:text-accent transition-all"
                 style={{ color: "var(--text-secondary)" }}
               >
-                AI & Vibe Coding
+                Explore My Journey
               </a>
             </motion.div>
           </div>

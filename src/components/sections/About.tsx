@@ -8,9 +8,9 @@ export default function About() {
     <section id="about" className="py-24 md:py-32 lg:py-40 px-6 md:px-8 lg:px-16 max-w-7xl mx-auto">
       <SectionHeader
         number="01"
-        label="About"
-        title="I don't pick one lane. I build the road."
-        highlight="build the road"
+        label="About Me"
+        title="B.Pharm student. Builder by instinct."
+        highlight="Builder by instinct"
       />
 
       <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
@@ -21,23 +21,31 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="space-y-6"
         >
+          <div className="p-5 rounded-xl border border-accent/20" style={{ background: "var(--highlight)" }}>
+            <p className="text-[10px] uppercase tracking-[0.2em] mb-2 text-accent font-bold">Academic Foundation</p>
+            <p className="text-lg font-bold">Bachelor of Pharmacy (B.Pharm)</p>
+            <p className="text-sm mt-1" style={{ color: "var(--text-secondary)" }}>
+              H.K. College of Pharmacy, Mumbai — Semester V
+            </p>
+          </div>
+
           <p className="text-lg leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-            B.Pharm student at H.K. College of Pharmacy, Mumbai — but that&apos;s just the foundation. I operate at the intersection of pharmacy, research, entrepreneurship, leadership, marketing, business management, and artificial intelligence.
+            I am a B.Pharm student with a deep interest in pharmaceutical sciences, research methodology, and scientific thinking. Pharmacy is my academic core — it shapes how I approach problems: methodically, rigorously, and with attention to detail.
           </p>
           <p className="text-lg leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-            My edge? I take an idea, break it down, build the plan, rally the people, leverage technology, and make it happen. I don&apos;t just think about things — I execute.
+            Beyond pharmacy, I&apos;ve independently built experience in entrepreneurship, leadership, business management, and AI-assisted development. These are separate pursuits that complement my pharmaceutical foundation.
           </p>
           <p className="text-base leading-relaxed" style={{ color: "var(--text-tertiary)" }}>
-            Co-founded a startup in 12th standard. Led as President of Lions Club. Managing a footwear brand. Engineering AI prompts to build real products. Every move is intentional.
+            Co-founded a startup in 12th standard. Led as President of Lions Club. Currently managing a footwear brand. Engineering AI prompts to build real products. Every move is intentional — and separate from my academic work.
           </p>
         </motion.div>
 
         <div className="space-y-4">
           {[
-            { label: "What drives me", value: "Turning concepts into tangible outcomes. Not talking — doing." },
+            { label: "Who I am", value: "A B.Pharm student who combines pharmaceutical knowledge with entrepreneurship, leadership, and modern technology — each pursued independently." },
+            { label: "What drives me", value: "Turning concepts into tangible outcomes. Not talking — doing. Pharmacy gives me the scientific mind; everything else gives me the execution muscle." },
             { label: "How I think", value: "Identify the problem. Plan the solution. Use every resource available. Execute without hesitation." },
-            { label: "Current focus", value: "AI-assisted development, prompt engineering, and scaling business operations." },
-            { label: "Philosophy", value: "I am not defined by a single field — I combine disciplines to dominate." },
+            { label: "Current focus", value: "Completing B.Pharm while simultaneously growing in AI-assisted development, prompt engineering, and business operations." },
           ].map((item, i) => (
             <motion.div
               key={item.label}

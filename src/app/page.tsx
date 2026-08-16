@@ -10,6 +10,7 @@ import AISection from "@/components/sections/AISection";
 import Skills from "@/components/sections/Skills";
 import Strengths from "@/components/sections/Strengths";
 import Direction from "@/components/sections/Direction";
+import Credentials from "@/components/sections/Credentials";
 import Footer from "@/components/sections/Footer";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <Skills />
         <Strengths />
         <Direction />
+        <Credentials />
       </main>
       <Footer />
     </>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="py-24 md:py-32 lg:py-40 px-6 md:px-8 lg:px-16 max-w-7xl mx-auto">
+    <footer id="contact" className="py-24 md:py-32 lg:py-40 px-6 md:px-8 lg:px-16 max-w-7xl mx-auto">
       {/* CTA */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -52,13 +52,64 @@ export default function Footer() {
         </motion.div>
       </motion.div>
 
+      {/* Contact & Professional Details */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5 }}
+        className="grid md:grid-cols-3 gap-8 mb-12 pt-10 border-t border-[var(--border-color)]"
+      >
+        <div>
+          <p className="text-[10px] uppercase tracking-[0.2em] text-accent font-bold mb-3">Profile</p>
+          <h3 className="text-lg font-black uppercase tracking-wide">Hamza Mohammed Faruk Tajani</h3>
+          <p className="text-sm mt-2" style={{ color: "var(--text-secondary)" }}>
+            B.Pharm Student · Entrepreneur · Leader
+          </p>
+          <p className="text-xs mt-1" style={{ color: "var(--text-tertiary)" }}>
+            H.K. College of Pharmacy, Mumbai
+          </p>
+        </div>
+
+        <div>
+          <p className="text-[10px] uppercase tracking-[0.2em] text-accent font-bold mb-3">Roles</p>
+          <ul className="space-y-1.5">
+            <li className="text-xs" style={{ color: "var(--text-secondary)" }}>B.Pharm Student — Semester V</li>
+            <li className="text-xs" style={{ color: "var(--text-secondary)" }}>Manager — Bellapaso</li>
+            <li className="text-xs" style={{ color: "var(--text-secondary)" }}>President — Lions Club</li>
+            <li className="text-xs" style={{ color: "var(--text-secondary)" }}>Class Representative — Sem II–V</li>
+            <li className="text-xs" style={{ color: "var(--text-secondary)" }}>AI & Prompt Engineering Enthusiast</li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="text-[10px] uppercase tracking-[0.2em] text-accent font-bold mb-3">Contact</p>
+          <a
+            href="mailto:worknest0224@gmail.com"
+            className="inline-flex items-center gap-2 text-sm font-semibold hover:text-accent transition-colors"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-accent">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M22 6l-10 7L2 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            worknest0224@gmail.com
+          </a>
+          <p className="text-xs mt-3" style={{ color: "var(--text-tertiary)" }}>
+            Mumbai, India
+          </p>
+          <p className="text-[10px] mt-4 uppercase tracking-wider" style={{ color: "var(--text-tertiary)" }}>
+            Open to collaborations, opportunities, and conversations.
+          </p>
+        </div>
+      </motion.div>
+
       {/* Footer bar */}
       <div className="pt-8 border-t border-[var(--border-color)] flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-[10px] uppercase tracking-[0.2em] font-medium" style={{ color: "var(--text-tertiary)" }}>
           &copy; 2026 Hamza Mohammed Faruk Tajani
         </p>
         <p className="text-[10px] uppercase tracking-[0.2em]" style={{ color: "var(--text-tertiary)" }}>
-          Mumbai, India
+          B.Pharm Student · Mumbai, India
         </p>
         <a
           href="#hero"

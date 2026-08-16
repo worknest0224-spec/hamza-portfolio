@@ -3,10 +3,10 @@ export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Journey", href: "#journey" },
   { label: "Experience", href: "#experience" },
-  { label: "Research", href: "#research" },
+  { label: "B.Pharm", href: "#research" },
   { label: "AI", href: "#ai" },
-  { label: "Skills", href: "#skills" },
-  { label: "Direction", href: "#direction" },
+  { label: "Credentials", href: "#credentials" },
+  { label: "Contact", href: "#contact" },
 ] as const;
 
 export const TIMELINE_ITEMS = [
@@ -22,8 +22,8 @@ export const TIMELINE_ITEMS = [
   { year: "Sem V", title: "Class Representative (Current)", desc: "Ongoing CR role with deepened responsibility and trust.", category: "leadership" },
   { year: "College", title: "Culture Committee Member", desc: "Cultural event planning, creative coordination, and student engagement.", category: "leadership" },
   { year: "College", title: "DLLE Member", desc: "Community engagement, social initiatives, and institutional activities.", category: "leadership" },
-  { year: "Research", title: "Avishkar Research", desc: "Research methodology, literature exploration, data collection, and innovation.", category: "research" },
-  { year: "Research", title: "Scientific Review Article", desc: "Literature analysis, scientific writing, referencing, and systematic presentation.", category: "research" },
+  { year: "Academic", title: "Participated in Avishkar", desc: "Gained exposure to research methodology, literature exploration, project planning, and scientific thinking.", category: "research" },
+  { year: "Academic", title: "Scientific Review Article", desc: "Literature analysis, scientific writing, referencing, and systematic presentation.", category: "research" },
   { year: "Work", title: "CA Assistant", desc: "TDS filing, RTI, banking management, documentation, and financial administration.", category: "business" },
   { year: "Work", title: "Indian Handicraft — Marketing", desc: "Marketing strategy, product promotion, brand positioning, and business communication.", category: "business" },
   { year: "Current", title: "Bellapaso — Manager", desc: "Managing a women's footwear brand — business operations, marketing, and digital strategy.", category: "business" },
