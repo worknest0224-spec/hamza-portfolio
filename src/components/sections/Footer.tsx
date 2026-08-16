@@ -75,7 +75,7 @@ export default function Footer() {
           <p className="text-[10px] uppercase tracking-[0.2em] text-accent font-bold mb-3">Roles</p>
           <ul className="space-y-1.5">
             <li className="text-xs" style={{ color: "var(--text-secondary)" }}>B.Pharm Student — Semester V</li>
-            <li className="text-xs" style={{ color: "var(--text-secondary)" }}>Manager — Bellapaso</li>
+            <li className="text-xs" style={{ color: "var(--text-secondary)" }}>Executive Manager — Bellapaso</li>
             <li className="text-xs" style={{ color: "var(--text-secondary)" }}>President — Lions Club</li>
             <li className="text-xs" style={{ color: "var(--text-secondary)" }}>Class Representative — Sem II–V</li>
             <li className="text-xs" style={{ color: "var(--text-secondary)" }}>AI & Prompt Engineering Enthusiast</li>

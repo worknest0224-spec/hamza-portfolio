@@ -168,7 +168,7 @@ export default function Hero() {
         >
           {[
             { label: "Education", value: "B.Pharm, Sem V", sub: "H.K. College of Pharmacy" },
-            { label: "Current Role", value: "Manager", sub: "Bellapaso" },
+            { label: "Current Role", value: "Executive Manager", sub: "Bellapaso" },
             { label: "Focus", value: "AI & Prompt Eng.", sub: "Vibe Coding" },
             { label: "Tagline", value: "Turning Ideas", sub: "Into Execution", accent: true },
           ].map((item, i) => (

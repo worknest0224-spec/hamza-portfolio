@@ -109,17 +109,12 @@ export default function Entrepreneurship() {
         className="mt-16"
       >
         <h3 className="text-2xl font-black uppercase tracking-wide mb-8">Business & Professional</h3>
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {[
             {
               title: "Bellapaso",
-              role: "Manager (Current)",
+              role: "Executive Manager (Current)",
               desc: "Women's footwear manufacturing brand. Business management, digital marketing, product operations, customer strategy, and end-to-end coordination.",
-            },
-            {
-              title: "Indian Handicraft",
-              role: "Marketing",
-              desc: "Marketing strategy, product promotion, brand positioning, business communication, and digital marketing.",
             },
             {
               title: "CA Office",
